@@ -1,0 +1,217 @@
+/* ─── LARGE DESKTOP (1280px and below) ─── */
+@media (max-width: 1280px) {
+  .grid-4-col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .video-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .thumbnail-img {
+    width: 100%;
+    height: auto;
+  }
+
+  input[type="search"] {
+    width: 380px;
+  }
+}
+
+/* ─── TABLET LANDSCAPE (1024px and below) ─── */
+@media (max-width: 1024px) {
+  aside {
+    width: 72px;
+    padding: 1rem 6px;
+    align-items: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .sidebar-flex p,
+  .sidebar-history-flex p,
+  .subscriptions h2,
+  .subscriptions li span {
+    display: none;
+  }
+
+  .sidebar-flex,
+  .sidebar-history-flex {
+    justify-content: center;
+  }
+
+  .subscriptions {
+    display: none;
+  }
+
+  .sidebar-history {
+    display: none;
+  }
+
+  .grid-4-col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .video-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .thumbnail-img {
+    width: 100%;
+    height: auto;
+  }
+
+  input[type="search"] {
+    width: 300px;
+  }
+
+  .segmented-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+}
+
+/* ─── TABLET PORTRAIT (768px and below) ─── */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+    height: auto;
+  }
+
+  aside {
+    display: none;
+  }
+
+  .main-content {
+    padding: 8px;
+  }
+
+  .grid-4-col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .video-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .thumbnail-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .header {
+    padding: 0 12px;
+    gap: 8px;
+  }
+
+  input[type="search"] {
+    width: 200px;
+  }
+
+  .segmented-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .segmented-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .videos {
+    padding: 1rem !important;
+  }
+}
+
+/* ─── MOBILE (480px and below) ─── */
+@media (max-width: 480px) {
+  .grid-4-col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header {
+    padding: 0 8px;
+    gap: 6px;
+  }
+
+  input[type="search"] {
+    width: 140px;
+    font-size: 13px;
+  }
+
+  .search-btn {
+    width: 44px;
+  }
+
+  .icons span:nth-child(1),
+  .icons span:nth-child(2) {
+    display: none;
+  }
+
+  .icons span img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .segmented-nav-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .video-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  .thumbnail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .video-title {
+    font-size: 13px;
+  }
+
+  .video-channel,
+  .video-stats {
+    font-size: 12px;
+  }
+
+  .profile-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .videos {
+    padding: 0.8rem !important;
+  }
+
+  .mic-icon {
+    display: none;
+  }
+}
+
+/* ─── VERY SMALL MOBILE (360px and below) ─── */
+@media (max-width: 360px) {
+  input[type="search"] {
+    width: 110px;
+  }
+
+  .icons {
+    gap: 4px;
+  }
+
+  .header {
+    padding: 0 6px;
+  }
+}
